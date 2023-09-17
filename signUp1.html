@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    table{
+        
+        height: 500px;
+        width: 1350px;
+        font-size: 20px;
+        border: none;
+        background-color: black;
+        color: #dacc0c;
+     }
+     
+
+     .hed{
+       
+    height: 50px;
+    width: 1350px;
+    background-color: rgb(231, 160, 27);
+}
+.hed h3{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+}
+
+.fot{
+    
+    height: 50px;
+    width:1350px;
+    background-color:rgb(231, 160, 27);
+}
+ 
+#res {
+    background-color: rgba(245, 50, 50, 0.664);
+    color: white;
+}
+
+#sub {
+    background-color: rgb(59, 230, 59);
+    color: white;
+}
+.fot input{
+    float: right;
+    margin-right: 20px;
+    border: none;
+    height: 40px;
+    width: 140px;
+    display: inline;
+}
+     
+</style>
+
+
+</head>
+<body>
+    <header class="hed">
+        <h3>Sign Up</h3>
+        </header>
+   <table>
+    <tr>
+<td style="text-align: end;" >
+    <label for="fname">First Name </label>
+</td>
+<td>
+    <input type="text" id="fname" name="fname"  placeholder="Enter First Name" style="margin-left: 20px;height: 30px;width: 160px;" >
+</td>
+    </tr>
+    <tr>
+        <td style="text-align: end;">
+        <label for="lname">Last Name </label>
+        </td>
+        <td>
+            <input type="text" id="lname" name="lname"  placeholder="Enter Last Name"  style="margin-left: 20px;height: 30px;width: 160px;">
+        </td>
+    </tr>
+     <tr>
+        <td style="text-align: end;">
+            <label for="dtbr">Date of Birth </label>
+        </td>
+        <td  >
+            <select name="day" id="day" style="margin-left: 20px; height: 30px;width: 80px;">
+                <option  value=""  disabled selected>Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                </select>
+                <select name="month"id="mont" style="height: 30px;width: 80px;">
+                    <option  value="" disabled selected>Month</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">july</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    </select>
+                    <select name="Year" id="year" style="height: 30px;width: 80px;">
+                        <option  value="" disabled selected>year</option>
+                        <option value="1">1990</option>
+                        <option value="2">1991</option>
+                        <option value="3">1992</option>
+                        <option value="4">1993</option>
+                        <option value="5">1994</option>
+                        <option value="6">1995</option>
+                        <option value="7">1996</option>
+                        <option value="8">1997</option>
+                        <option value="9">1998</option>
+                        <option value="10">1999</option>
+                        </select>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: end;">
+            <label for="gen">Gender </label>
+        </td>
+        <td  >
+
+<input type="radio" id="mal" name="mal" value="Male" style="margin-left: 20px;">
+<label for="Male"> Male</label>
+<input type="radio" id="female" name="female" value="Female">
+<label for="Female"> Female</label>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: end;">
+            <label for="count">Country </label>
+        </td>
+        <td  >
+            <select name="country" id="count" style="margin-left: 20px;height: 30px;width: 100px;">
+                <option value="" disabled selected>Country</option>
+                <option value="EG">Egypt</option>
+                <option value="SA">Saudi Arabia</option>
+                <option value="AE">Emirates</option>
+                <option value="YE">Yemen</option>
+               
+                </select>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: end;">
+            <label for="email" > E-mail </label>
+        </td>
+        <td>
+            <input type="email" id="email" name="email"  placeholder="Enter E-mail"  style="margin-left: 20px;height: 30px;width: 160px;"> 
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: end;">
+            <label for="phone" >Phone </label>
+        </td>
+        <td>
+            <input type="tel" id="phone" name="phone" placeholder="Enter Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  style="margin-left: 20px;height: 30px;width: 160px;">
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: end;">
+            <label for="pass" >Password</label>
+        </td>
+        <td>
+            <input type="password" id="pass" name="pass"  style="margin-left: 20px;height: 30px;width: 160px;">   
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: end;">
+            <label for="conpass" >Confirm Password </label>
+        </td>
+        <td>
+            <input type="password" id="conpass" name="conpass"  style="margin-left: 20px;height: 30px;width: 160px;"> 
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;">
+            <input type="checkbox" id="gree" name="gree" value="gree">
+            <label for="gree" style="font-size: 30px;"> I Agree to the Terms of use</label>
+        </td>
+    </tr>
+    
+   </table> 
+
+   <footer class="fot">
+        <form action="registration.html">
+    <input id="res" type="reset" value="Cancel">
+    <input id="sub" type="submit" value="Submit">
+
+      </form>
+  </footer>
+
+
+</body>
+</html>

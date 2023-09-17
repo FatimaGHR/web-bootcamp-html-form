@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+<style>
+    tr{
+       
+        border: 3px solid rgb(238, 233, 233);
+    }
+    td{
+        
+        border: 2px solid rgb(22, 20, 20);
+    }
+
+    table{
+        
+       height: 630px;
+       width: 1350px;
+       font-size: 20px;
+    }
+</style>
+
+</head>
+<body>
+    <table>
+<tr style="height: 20px; background-color: #fffeaa;">
+    <td colspan="3"> <h2 style="color: red; font-size: 30px;margin-left: 305px; ">Registration Form</h2></td>
+    
+</tr>
+
+<tr style="height: 40px;background-color: #00ccff;">
+    <td style="text-align: center;"> Enter Name</td>
+    <td colspan="2"> <input type="text" id="fname" name="fname" style="height: 25px; width: 300px;margin-left: 30px;" ></td>
+</tr>
+
+<tr style="height: 40px;background-color: #00ccff;">
+    <td style="text-align: center;" > Enter Password</td>
+    <td colspan="2"> <input type="password" id="pass" name="pass"  style="height: 25px; width: 300px;margin-left: 30px;"></td>
+</tr>
+
+<tr style="height: 100px;background-color: #00ccff;">
+    <td style="text-align: center;"> Enter Address</Address></td>
+    <td colspan="2">  <input type="text" id="address" name="address" style="height: 80px; width: 300px;margin-left: 30px;"></td>
+</tr>
+<tr style="height:120px ;background-color: #00ccff;">
+    <td style="text-align: center;"> Select Game</td>
+    <td colspan="2" style="font-size: 17px;">
+        <input type="checkbox" id="hock" name="hock" value="hock" style="margin-left: 30px;">
+        <label for="hock"> Hockey</label>
+
+<br>
+<input type="checkbox" id="foot" name="foot" value="foot" style="margin-left: 30px;">
+<label for="foot"> Football</label>
+
+<br>
+<input type="checkbox" id="bad" name="bad" value="bad" style="margin-left: 30px;">
+<label for="bad"> Badminton</label>
+
+<br>
+<input type="checkbox" id="cric" name="cric" value="cric" style="margin-left: 30px;">
+<label for="cric"> Cricket</label>
+
+<br>
+<input type="checkbox" id="voll" name="voll" value="voll" style="margin-left: 30px;">
+<label for="voll"> Volleyball</label>
+
+    </td>
+</tr>
+<tr style="height: 35px; background-color: #00ccff;background-color: #00ccff;">
+    <td style="text-align: center;"> Gender</td>
+    <td colspan="2" style="font-size: 17px;"> 
+        <div style="margin-left: 30px;">
+<label for="Male"> Male</label>
+<input type="radio" id="mal" name="Gender" value="Male">
+<label for="Female"> Female</label>
+<input type="radio" id="female" name="Gender" value="Female" >
+</div>
+    </td>
+</tr>
+<tr style="height: 35px;background-color: #00ccff;">
+    <td style="text-align: center;"> Select ur age</td>
+    <td colspan="2"> 
+        <select name="select" id="count" style="height:25px ; width: 150px; font-size: 17px; margin-left: 30px;">
+            <option value="" disabled selected>Select</option>
+            <option value="1">20</option>
+            <option value="2">21</option>
+            <option value="3">22</option>
+            <option value="4">23</option>
+           
+            </select>
+    </td>
+</tr>
+<tr style="height: 40px;background-color: #00ccff;">
+    <td style="text-align: center;"> Select photo</td>
+    <td colspan="2"><input type="file" id="myfile" name="myfile" style="height: 30x; font-size: 20px;margin-left: 30px;"></td>
+</tr>
+<tr style="height: 70px;background-color: #00ccff;">
+    <td colspan="3">
+        <form action="#" style="padding-left: 30px;">
+        <input type="button" onclick="alert('welcome')" value="Click Me!" style="height: 60px; width: 420px; font-size: 22px; padding-left: 15px;">
+        <input id="res" type="reset" value="Reset"  style="height: 60px; width: 420px; font-size: 22px; padding-left: 15px;">
+        <input id="sub" type="submit" value="Submit Form" style="height: 60px; width: 420px; font-size: 22px; padding-left: 15px;">
+    </form>
+
+    </td>
+    
+</tr>
+
+    </table>
+</body>
+</html>
